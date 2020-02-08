@@ -1,6 +1,8 @@
 {
   "extends": "tslint:recommended",
   "rules": {
+    "lines-between-class-members": true,
+    "eofline": true,
     "array-type": false,
     "arrow-parens": false,
     "deprecation": {
@@ -69,7 +71,7 @@
     "ordered-imports": false,
     "quotemark": [
       true,
-      "single"
+      "double"
     ],
     "trailing-comma": false,
     "no-conflicting-lifecycle": true,
@@ -86,6 +88,7 @@
     "use-pipe-transform-interface": true
   },
   "rulesDirectory": [
-    "codelyzer"
+    "codelyzer",
+    "node_modules/tslint-lines-between-class-members"
   ]
 }

@@ -1,27 +1,46 @@
-# AngularProject
+# Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+Structure d'un projet Angular.
 
-## Development server
+## Configuration de l'environnement de développement
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Installer Yarn
 
-## Code scaffolding
+Voir https://classic.yarnpkg.com/fr/docs/install.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Installer Angular CLI
 
-## Build
+`yarn global add @angular/cli`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Utiliser Yarn avec Angular CLI
 
-## Running unit tests
+`ng config -g cli.packageManager yarn`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation des dépendances
 
-## Running end-to-end tests
+`yarn`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Développement
 
-## Further help
+### Création de composants
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`ng generate component|directive|pipe|service|class|guard|interface|enum|module component-name`
+
+### Serveur local
+
+`ng serve` pour démarrer le serveur, l'application est accessible via `http://localhost:4200/`.
+
+### Tests
+
+`ng test` pour exécuter les tests unitaires via [Karma](https://karma-runner.github.io).
+
+`ng e2e` pour exécuter les tests e2e via [Protractor](http://www.protractortest.org/).
+
+### Analyser le code
+
+`ng lint` pour analyser le code et vérifier le respect des règles.
+
+## Génération des livrables
+
+`ng build` pour générer le code deployable sur un serveur.
+Le résultat est disponible dans `dist/`.
