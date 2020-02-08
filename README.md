@@ -2,6 +2,8 @@
 
 Structure d'un projet Angular.
 
+[![Build Status](https://travis-ci.com/Sydher/angular-project.svg?branch=master)](https://travis-ci.com/Sydher/angular-project)
+
 ## Configuration de l'environnement de développement
 
 ### Installer Yarn
