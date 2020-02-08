@@ -1,8 +1,14 @@
 # Angular Project
 
-Structure d'un projet Angular.
-
 [![Build Status](https://travis-ci.com/Sydher/angular-project.svg?branch=master)](https://travis-ci.com/Sydher/angular-project)
+
+## Informations sur le projet
+
+*angular-project* est un squelette d'un projet Angular 9.
+
+[![Bulma](https://img.shields.io/badge/Bulma-0.8.0-blue.svg)](https://bulma.io/)
+[![PrimeNG](https://img.shields.io/badge/PrimeNG-9.0.0-blue.svg)](https://primefaces.org/primeng/#/)
+[![FontAwesome](https://img.shields.io/badge/FontAwesome-5.12.1-blue.svg)](https://fontawesome.com/)
 
 ## Configuration de l'environnement de développement
 
@@ -20,7 +26,7 @@ Voir https://classic.yarnpkg.com/fr/docs/install.
 
 ### Installation des dépendances
 
-`yarn`
+`cd angular-project && yarn`
 
 ## Développement
 
