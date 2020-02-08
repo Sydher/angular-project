@@ -1,0 +1,38 @@
+/* *************************** */
+/* *** Barre de navigation *** */
+/* *************************** */
+
+// Menu Burger sur la gauche
+.navbar-burger {
+    margin-left: 0;
+}
+
+// Titre du site en gras
+.navbar-title {
+    font-weight: bold;
+}
+
+/* **************************** */
+/* *** Structure de la page *** */
+/* **************************** */
+
+// Corps de la page
+#corps {
+    margin: 15px;
+    min-height: 75%;
+}
+
+// Bas de page
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #747171;
+    font-size: 0.8rem;
+}
+#footer a {
+    color: #144977;
+}
+#footer a:hover {
+    color: #116fbf;
+}

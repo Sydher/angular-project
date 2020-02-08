@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, ViewChild, ElementRef } from "@angular/core";
 
 @Component({
     selector: "app-root",
@@ -6,5 +6,23 @@ import { Component } from "@angular/core";
     styleUrls: ["./app.component.scss"]
 })
 export class AppComponent {
-    title = "angular-project";
+
+    // Gestion de la Navbar
+    @ViewChild("navBurger", { static: true }) navBurger: ElementRef;
+    @ViewChild("navMenu", { static: true }) navMenu: ElementRef;
+
+    currentYear: number;
+
+    constructor() {
+        this.currentYear = new Date().getFullYear();
+    }
+
+    /**
+     * Active/désactive la barre de navigation en mode mobile.
+     */
+    toggleNavbar() {
+        this.navBurger.nativeElement.classList.toggle("is-active");
+        this.navMenu.nativeElement.classList.toggle("is-active");
+    }
+
 }
